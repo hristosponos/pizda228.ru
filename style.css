@@ -7,7 +7,7 @@ body{
 html {font-size: 100%;} /*16px*/
 
 body {
-  background: white;
+  background: whitesmoke;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
   line-height: 1.75;
@@ -180,4 +180,56 @@ section{
 
 .detail h4{
 	margin-top: 0;
+}
+
+.events{
+    margin-left:3em;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.events h4{
+    margin-top: 0;
+}
+.events div{
+    max-width: 6em;
+}
+.events h4{
+    margin-top: 0;
+}
+.events-body article:last-child{
+    padding: 0 4em;
+}
+#fw-6{
+    font-weight: 600;
+}
+
+.big-btn{
+	background-color: white;
+	font-weight: 600;
+	padding: 4em 1em 1em;
+	justify-content: space-between;
+	max-width: 350px;
+	height: 150px;
+	align-items: end;
+	text-decoration: none;
+	color: black;
+	margin: 1em 4em;
+}
+
+.big-btn  img{
+	height: 4em;
+}
+
+.big-btn p{
+	font-size: 20px;
+}
+
+.big-btns{
+	justify-content: flex-end;
+	text-decoration: none;
+}
+
+.big-btns a{
+	color: black;
+	text-decoration: none;
 }
